@@ -82,7 +82,7 @@ export function ToDoList() {
 				))}
 				{/* list counter in footer */}
 
-				<li className="counter">
+				<li className="counter d-flex justify-content-between">
 					{list.length > 0
 						? `${list.length} task${
 								list.length > 1 ? "s left" : " left"
@@ -90,7 +90,7 @@ export function ToDoList() {
 						: "All tasks completed, yay!"}
 
 					<span
-						className="clearall"
+						className="d-flex justify-content-end"
 						role="button"
 						onClick={() => setList([])}>
 						clear list
