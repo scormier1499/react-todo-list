@@ -80,7 +80,7 @@ export function ToDoList() {
 						</span>
 					</li>
 				))}
-				{/* list counter in footer */}
+				{/* todo counter in footer */}
 
 				<li className="counter d-flex justify-content-between">
 					{list.length > 0
